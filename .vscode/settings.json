@@ -1,29 +1,72 @@
 {
-  // Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  // Shopify Liquid
+  // Editör renk özelleştirmeleri
+  "editor.tokenColorCustomizations": {
+    "[**]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#c6cbc5",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#f70fb2",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.accessor",
+            "meta.delimiter.object.comma",
+            "meta.delimiter.array.comma",
+            "punctuation.terminator",
+            "punctuation.separator.continuation"
+          ],
+          "settings": {
+            "foreground": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  },
+  "editor.fontSize": 16.3,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "bold",
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.borderStyle": "solid"
+  },
   "files.associations": {
+    "*.ejs": "html",
+    "stdio.h": "c",
+    "time.h": "c",
     "*.html": "liquid"
   },
+  "C_Cpp.errorSquiggles": "disabled",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-  // Formatter
   "[html][liquid]": {
     "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
-  // Disable vscode built-in stylelint
   "css.validate": false,
   "scss.validate": false,
   "less.validate": false,
-  // Stylint extension settings
   "stylelint.snippet": ["css", "scss"],
   "stylelint.validate": ["css", "scss"],
-  // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   }
