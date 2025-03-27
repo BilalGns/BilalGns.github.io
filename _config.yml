@@ -19,7 +19,7 @@ title: B1lal # the main title
 tagline: Siber Güvenlik ve Yazılım meraklısı # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  CTF çözümleri, CVE analizleri ve siber güvenlik üzerine teknik yazılar paylaştığım minimal bir blog sayfası.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-SFX2V90TDJ
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
