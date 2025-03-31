@@ -5,6 +5,7 @@ categories: [TryHackMe]
 tags: [gitlab, cve, cve 2023-7028, bug bounty]
 render_with_liquid: false
 media_subpath: /images/tryhackme_overpass_1/
+published: false
 image:
   path: main.png
 ---
