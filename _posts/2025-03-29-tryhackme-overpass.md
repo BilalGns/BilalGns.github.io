@@ -20,4 +20,8 @@ image:
 .wrap pre{
     white-space: pre-wrap;
 }
+
+.post-desc {
+  font-family: 'Open Sans', sans-serif !important;
+}
 </style>

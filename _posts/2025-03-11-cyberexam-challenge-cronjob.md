@@ -148,6 +148,7 @@ CyberPath{CENSORED}
 ![Challenge Finished](challenge-finish.png){: width="1000" height="700"}
 
 <style>
+
 .center img {
   display:block;
   margin-left:auto;
@@ -155,5 +156,8 @@ CyberPath{CENSORED}
 }
 .wrap pre{
     white-space: pre-wrap;
+}
+.post-desc {
+  font-family: 'Open Sans', sans-serif !important;
 }
 </style>
