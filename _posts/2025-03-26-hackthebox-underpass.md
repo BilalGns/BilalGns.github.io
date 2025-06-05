@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox: UnderPass"
 author: b1lal
-categories: [HackTheBox]
+categories: [HackTheBox, CTF]
 tags: [hackthebox, privilege escalation, snmp, daloradius, mosh]
 render_with_liquid: false
 media_subpath: /images/hackthebox_underpass/

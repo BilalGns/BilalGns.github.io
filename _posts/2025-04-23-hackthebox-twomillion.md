@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox: TwoMillion"
 author: b1lal
-categories: [HackTheBox]
+categories: [HackTheBox, CTF]
 tags: [hackthebox, privilege escalation, api, javascript, js obfuscation, curl, kernel, cve 2023-0386, php, command injection]
 render_with_liquid: false
 description: "HackTheBox platformunda Easy zorluk seviyesine sahip olan TwoMillion isimli makineyi ele alacağız."
