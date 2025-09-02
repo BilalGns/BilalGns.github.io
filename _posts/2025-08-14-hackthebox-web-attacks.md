@@ -7,7 +7,7 @@ render_with_liquid: false
 description: "HacktheBox platformunda Web Attacks modülündeki yetenek değerlendirme sorularının çözümünü içermektedir."
 media_subpath: /images/hackthebox_web_attacks/
 layout: post
-published: false  
+published: true  
 lang: "tr"
 image:
   path: main.png
